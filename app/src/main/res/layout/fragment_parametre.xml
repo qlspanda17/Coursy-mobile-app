@@ -1,0 +1,98 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/param_tres"
+            android:textColor="@android:color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+    </Toolbar>
+
+    <!-- ✅ Champ catégorie -->
+    <EditText
+        android:padding="16dp"
+        android:id="@+id/inputCategorie"
+        android:hint="Nouvelle catégorie"
+        android:textColor="@color/white"
+        android:textColorHint="#AAAAAA"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- ✅ Bouton ajouter -->
+    <Button
+        android:padding="16dp"
+        android:id="@+id/btnAddCategorie"
+        android:text="Ajouter catégorie"
+        android:textColor="@color/white"
+        android:backgroundTint="#9C27B0"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- ✅ Switch -->
+    <Switch
+        android:padding="16dp"
+        android:id="@+id/switchSuggestions"
+        android:text="Activer suggestions"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- ✅ Boutons graphique -->
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:padding="16dp"
+            android:id="@+id/btnCategorie"
+            android:text="Catégorie"
+            android:textColor="@color/white"
+            android:backgroundTint="#333333"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:padding="16dp"
+            android:id="@+id/btnSemaine"
+            android:text="Semaine"
+            android:textColor="@color/white"
+            android:backgroundTint="#333333"
+            android:layout_marginStart="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!-- ✅ Graphique -->
+    <com.github.mikephil.charting.charts.PieChart
+        android:padding="16dp"
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        tools:ignore="MissingClass" />
+
+</LinearLayout>

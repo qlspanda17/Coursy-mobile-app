@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="acceuil"
+        android:id="@+id/acceuil"
+        android:icon="@drawable/acceuil"/>
+
+    <item android:title="historique"
+        android:id="@+id/historique"
+        android:icon="@drawable/historique"/>
+    <item android:title="suggestions"
+        android:id="@+id/suggestions"
+        android:icon="@drawable/suggestions" />
+
+    <item android:title="parametre"
+        android:id="@+id/parametre"
+        android:icon="@drawable/parametre"/>
+
+</menu>

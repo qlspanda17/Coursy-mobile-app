@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Suggestions"
+            android:textColor="@android:color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+    </Toolbar>
+
+    <EditText
+        android:padding="16dp"
+        android:id="@+id/inputSuggestion"
+        android:hint="Ex : tacos, soirée, petit déjeuner..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:padding="16dp"
+        android:id="@+id/btnGenerate"
+        android:text="Générer suggestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:padding="16dp"
+        android:id="@+id/resultSuggestion"
+        android:text=""
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

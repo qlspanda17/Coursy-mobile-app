@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401129278027",
+    "project_id": "coursy-b4e68",
+    "storage_bucket": "coursy-b4e68.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401129278027:android:310bb7e8685401a2d85bce",
+        "android_client_info": {
+          "package_name": "com.example.coursy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXc14phKTaduDEHsX3P6C8faQutUwPmUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
