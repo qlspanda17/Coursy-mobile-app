@@ -37,11 +37,7 @@
             android:padding="12dp"/>
 
 
-        <Button
-            android:id="@+id/btnChangerListe"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Changer liste"/>
+       
 
         <Button
             android:id="@+id/btnValider"
